@@ -107,8 +107,8 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://line.me',
-            external: true
+            url: 'https://www.telexpress.com/',
+            external: false
         });
     });
 
